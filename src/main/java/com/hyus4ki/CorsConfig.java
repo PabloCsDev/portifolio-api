@@ -16,11 +16,11 @@ public class CorsConfig {
                 registry.addMapping("/**")
                         .allowedOrigins(
                                 "http://localhost:4200",
-                                "https://portfolio-frontend.vercel.app"
+                                "https://port-front-lemon.vercel.app"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
-                        .allowCredentials(true);
+                        .allowCredentials(false);
             }
         };
     }
