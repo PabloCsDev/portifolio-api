@@ -1,33 +1,30 @@
 package com.hyus4ki.dto;
 
+import lombok.Data;
 import java.util.List;
 
+@Data
 public class StackResponse {
 
     private List<Category> categories;
     private Meta meta;
 
-    // getters / setters
-
+    @Data
     public static class Category {
         private String id;
         private String label;
         private List<Item> items;
-
-        // getters / setters
     }
 
+    @Data
     public static class Item {
         private String name;
-        private String level; // production | learning
-
-        // getters / setters
+        private String level;
     }
 
+    @Data
     public static class Meta {
         private boolean alwaysLearning;
         private String learningMessage;
-
-        // getters / setters
     }
 }
