@@ -37,6 +37,7 @@ public class StackService {
                         item("PostgreSQL", "production"),
                         item("Redis", "production"),
                         item("MySQL", "learning")
+
                 ),
 
                 category(
@@ -45,7 +46,8 @@ public class StackService {
                         item("Docker", "production"),
                         item("RabbitMQ", "production"),
                         item("Git", "production"),
-                        item("GitHub", "production")
+                        item("GitHub", "production"),
+                        item("Linux","production")
                 ),
 
                 category(
