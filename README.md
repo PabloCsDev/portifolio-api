@@ -126,13 +126,21 @@ http://localhost:8080/api
 🔮 Evoluções Futuras (Planejadas)
 
 -Persistência em banco de dados (JPA/H2/MySQL)
+
 -Documentação OpenAPI / Swagger
+
 -Autenticação e autorização
+
 -Painel administrativo para edição de dados
+
 -Integração com API do GitHub
+
 -Cache com Redis
+
 -Testes automatizados
+
 -Deploy com CI/CD
+
 
 👨‍💻 Desenvolvido por
 Pablo Carvalho Santos
